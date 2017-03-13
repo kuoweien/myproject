@@ -1,9 +1,9 @@
 package oo.abstraction;
 
-public class TicketsTester {
+public class TickestsTester {
 
 	public static void main(String[] args) {
-		Tickets t1 = new Tickets();
+		Tickets t = new Tickets();
 
 	}
 
