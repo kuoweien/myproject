@@ -11,7 +11,7 @@ public class Car {
 		this.brand = brand;
 		this.name = name;
 		this.cc = cc;
-		this.type = type;
+		
 		
 	}
 	
