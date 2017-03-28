@@ -7,6 +7,7 @@ public class Car {
 	String type;
 	int status;
 	int id;
+	float milage;
 	public Car(String brand,String name,int cc){
 	
 		this.brand = brand;
@@ -15,6 +16,18 @@ public class Car {
 		
 		
 	}
-	
+	//Method:
+	public void maintain(){
+		status = 5;
+		
+	}
+	//方法第一個字小寫第二個字大寫
+	public void setMilage(int m){
+		milage = m;
+	}
+	public float addMilage(int m){
+		milage = milage + m;
+		return milage;
+	}
 
 }

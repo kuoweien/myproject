@@ -31,6 +31,10 @@ public class CarTester {
 		}
 		AA a = new AA();
 		
+		Car c = new Car("Toyota", "Altis", 1800);
+		c.setMilage(25000);
+		float current = c.addMilage(80);
+		System.out.println("目前公里數是:"+current);
 	}
 
 }
