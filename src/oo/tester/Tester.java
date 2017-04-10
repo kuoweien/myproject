@@ -10,31 +10,23 @@ public class Tester {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		ArrayList<String> a = new ArrayList<>();
+	 	a.add("331");
+		a.add("821");
+		a.add("886");
+		a.add("554");
+		
 		Scanner scanner = new Scanner(System.in); 
 		System.out.println("輸入發票號碼");
 		String s = scanner.nextLine();
-		int n = Integer.parseInt(s);
-		String k = "331";
-		String t = "123456331";
-		System.out.println(t.length());
+		String sub = s.substring(s.length()-3);
 		
+		if(sub.equals(a.get(0))||sub.equals(a.get(1))||sub.equals(a.get(2))||sub.equals(a.get(3))){
+			System.out.println("恭喜你中獎!");
+		}else{
+			System.out.println("摃龜了不要難過");
+		}
 		
-	/*	Car c = new Car("T","A",1800);
-        ArrayList<String> a = new ArrayList();
-   //   String numbers[] = {"886","331","821"};
-        a.add("886");
-        a.add("331");
-        a.add("821");
-   //   a.add(123);
-        System.out.println(a.size());
-        a.set(2, "886");
-        System.out.println(a);
-        System.out.println(a.set(2, "886"));
-        System.out.println(a);
-        String data = (String)a.get(2);
-   //   int n = (int)a.get(4);
-      */
-        //331 821 886 554
 	}
 
 }
