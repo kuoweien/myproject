@@ -5,7 +5,14 @@ public class Student {
 	int math;
 	int chinese;
 	static int pass = 60;
-	// passÅÜ¦¨Ãş§OÅÜ¼Æ
+	static{
+		System.out.println("Static");
+		//System.out.println(english);
+		System.out.println(pass);
+	}
+	public Student(){
+		//this.passs; staticä½¿passä¸æ˜¯ç‰©ä»¶
+	}
 	public Student(int english,int math, int chinese){
 		this.chinese = chinese;
 		this.english = english;

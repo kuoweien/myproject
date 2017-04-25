@@ -8,20 +8,23 @@ public class Car {
 	int status;
 	int id;
 	float milage;
+	public Car(String brand,String name){
+		this(brand, name, 0);
+		System.out.println("as");
+		//thiså‘¼å«è¦åœ¨ç¬¬ä¸€è¡Œ
+	}
 	public Car(String brand,String name,int cc){
-	
 		this.brand = brand;
 		this.name = name;
 		this.cc = cc;
-		
-		
 	}
+	
 	//Method:
 	public void maintain(){
 		status = 5;
 		
 	}
-	//¤èªk²Ä¤@­Ó¦r¤p¼g²Ä¤G­Ó¦r¤j¼g
+	
 	public void setMilage(int m){
 		milage = m;
 	}

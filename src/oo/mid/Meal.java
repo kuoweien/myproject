@@ -9,4 +9,7 @@ public class Meal {
 		this.mainfood=mainfood;
 		this.another=another;
 	}
+	public void p(){
+		System.out.println(mainfood+another+price);
+	}
 }

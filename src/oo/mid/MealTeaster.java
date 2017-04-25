@@ -7,9 +7,9 @@ import oo.abstraction.Car;
 public class MealTeaster {
 
 	public static void main(String[] args) {
-		Meal m1 = new Meal(200,"beef","icecream");
+		/*Meal m1 = new Meal(200,"beef","icecream");
 		Meal m2 = new Meal(150,"chicken","french fries");
-		Meal m3 = new Meal(200,"fish","apple pie");
+		Meal m3 = new Meal(200,"fish","apple pie");*/
 		
 		Meal[] meal = new Meal[3];
 		meal[0] =  new Meal(200,"beef","icecream");

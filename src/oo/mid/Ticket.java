@@ -7,20 +7,20 @@ public class Ticket {
 	public void setId(int m){
 		id=m;
 	}
-	private void getId(int id){
+	public void getId(int id){
 	}
 	
 	
 	public void setName(String n){
 		name=n;
 	}
-	private void getName(int name){
+	public void getName(int name){
 	}
 	
 	public void setIPrice(float i){
 	 price=i;
 	}
-	private void getPrice(float price){
+	public void getPrice(float price){
 	}
 	
 }
