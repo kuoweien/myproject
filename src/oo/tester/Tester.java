@@ -2,12 +2,9 @@ package oo.tester;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
-//¥[¤J¤£¦Ppackageªºclass
-import oo.abstraction.Car;
+import oo.stati.Student;
 
 public class Tester {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayList<String> a = new ArrayList<>();
@@ -17,15 +14,16 @@ public class Tester {
 		a.add("554");
 		
 		Scanner scanner = new Scanner(System.in); 
-		System.out.println("¿é¤Jµo²¼¸¹½X");
+		System.out.println("ï¿½ï¿½Jï¿½oï¿½ï¿½ï¿½ï¿½ï¿½X");
 		String s = scanner.nextLine();
 		String sub = s.substring(s.length()-3);
 		
 		if(sub.equals(a.get(0))||sub.equals(a.get(1))||sub.equals(a.get(2))||sub.equals(a.get(3))){
-			System.out.println("®¥³ß§A¤¤¼ú!");
+			System.out.println("ï¿½ï¿½ï¿½ß§Aï¿½ï¿½ï¿½ï¿½!");
 		}else{
-			System.out.println("Ý¢Àt¤F¤£­nÃø¹L");
+			System.out.println("Ý¢ï¿½tï¿½Fï¿½ï¿½ï¿½nï¿½ï¿½ï¿½L");
 		}
+		Student stu = new Student();
 		
 	}
 
