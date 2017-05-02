@@ -6,9 +6,11 @@ public class Tester {
 		System.out.println(Student.pass);
 		Student s1 = new Student(87, 89, 65);
 		Student s2 = new Student(65, 59, 85);
+		Graduatestudent gts1 = new Graduatestudent(65, 59, 85);
 		s1.pass = 70;
 		s1.print();
 		s2.print();
+		gts1.print();
 		
 
 	}
