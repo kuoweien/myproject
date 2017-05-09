@@ -1,7 +1,7 @@
 package oo.shopping;
 
 public class Custom {
-	int i = 6000;
+	int i = 7000;
 	float discount = 0.9f;
 	float back= 0.05f;
 

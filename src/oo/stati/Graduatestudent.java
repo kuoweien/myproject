@@ -8,6 +8,7 @@ public class Graduatestudent extends Student{
 		this.math = math;
 		
 	}
+	
 	@Override
 	public void print(){
 		System.out.println(getScore(english)+"\t"+getScore(math)+"\t"+getScore(chinese)+"\t"+thesis);
