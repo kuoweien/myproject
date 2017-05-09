@@ -6,6 +6,9 @@ import java.util.ArrayList;
 public class Tester {
 
 	public static void main(String[] args) {
+		Student stu = new Student();
+		System.out.print(stu);
+		
 		System.out.println(Student.pass);
 		Student s1 = new Student(87, 89, 65);
 		Student s2 = new Student(65, 59, 85);
@@ -22,8 +25,8 @@ public class Tester {
 		list.add(new Graduatestudent(65, 59, 85));
 		list.add(new Graduatestudent(85, 91, 55));
 		for(int i = 0;i<list.size();i++){
-			Student stu = list.get(i);
-			stu.print();
+			Student stu1 = list.get(i);
+			stu1.print();
 		}
 	}
 	

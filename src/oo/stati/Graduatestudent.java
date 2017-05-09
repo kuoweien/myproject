@@ -6,6 +6,7 @@ public class Graduatestudent extends Student{
 		this.chinese = chinese;
 		this.english = english;
 		this.math = math;
+		
 	}
 	@Override
 	public void print(){

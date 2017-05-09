@@ -28,5 +28,11 @@ public class Student {
 			return String.valueOf(score);
 		}
 	}
+	public String toString(){
+		return 
+				"english:"+english+"\n"+
+				"chinese:"+chinese+"\n"+
+				"math:"+math+"\n";
+	}
 	
 }
