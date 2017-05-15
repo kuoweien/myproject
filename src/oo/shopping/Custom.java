@@ -1,7 +1,8 @@
 package oo.shopping;
 
-public class Custom {
-	int i = 7000;
+
+public class Custom extends Tester{
+	int i;
 	float discount = 0.9f;
 	float back= 0.05f;
 

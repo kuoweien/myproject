@@ -14,14 +14,14 @@ public class Tester {
 		a.add("554");
 		
 		Scanner scanner = new Scanner(System.in); 
-		System.out.println("��J�o�����X");
+		System.out.println("請輸入發票號碼");
 		String s = scanner.nextLine();
 		String sub = s.substring(s.length()-3);
 		
 		if(sub.equals(a.get(0))||sub.equals(a.get(1))||sub.equals(a.get(2))||sub.equals(a.get(3))){
-			System.out.println("���ߧA����!");
+			System.out.println("恭喜中獎!");
 		}else{
-			System.out.println("ݢ�t�F���n���L");
+			System.out.println("摃龜了不要難過");
 		}
 		Student stu = new Student();
 		
