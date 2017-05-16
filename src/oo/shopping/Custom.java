@@ -2,12 +2,15 @@ package oo.shopping;
 
 
 public class Custom extends Tester{
-	int i;
-	float discount = 0.9f;
-	float back= 0.05f;
-
+	int amount;
+	public Custom(){
+		super();
+	}
+	public Custom(int amount){
+		this.amount = amount;
+	}
 	public void print(){
-		System.out.print("一般客戶: " +i+"\t"+i+"\t"+"0");
+		System.out.println("一般客戶: " +amount+"\t"+amount+"\t"+"0");
 	}
 	
 
